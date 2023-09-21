@@ -35,7 +35,7 @@ function App() {
   return (
     <div className="App">
      <h1>{value}</h1>
-        <button onClick={incHandler}>inc</button>
+        <button onClick={incHandler}>increment</button>
         <button onClick={setToLocalStorageHandler}>setToLocalStorageHandler</button>
         <button onClick={getFromLocalHandler}>getFromLocalHandler</button>
         <button onClick={clearLocalStorageHandler}>clearLocalStorage</button>
